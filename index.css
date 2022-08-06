@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+    /* height: 100px; */
+}
+
+.div-nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* Não tô conseguindo fazer o espaçamento dos itens */
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body header div nav ul li a:link {
+    text-decoration: none;
+}
+
+body header div nav ul li a:active {
+    text-decoration: none;
+}
+
+body header div nav ul li a:visited {
+    text-decoration: none;
+}
+
+body header div nav ul li a:hover {
+    text-decoration: underline;
+    transition: 10ms;
+}
+
+.itens {
+    list-style: none;
+}
+
+.img {
+    width: 100px;
+}
