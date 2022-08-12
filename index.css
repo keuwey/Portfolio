@@ -9,21 +9,18 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: blue; */
-    /* height: 100px; */
-}
-
-.div-nav-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* Não tô conseguindo fazer o espaçamento dos itens */
 }
 
 .ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+#nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 body header div nav ul li a:link {
