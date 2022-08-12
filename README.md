@@ -1,7 +1,7 @@
 
 # Kevin's Portfolio
 
-This is the repository for my portfolio web site.
+This is the repository for my portfolio web site. As soon as I make something that I can show, I'll post the link here.
 
 
 ## Contributing
