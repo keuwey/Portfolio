@@ -1,49 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Kevin's Portfolio</title>
-</head>
-<body>
-    <header class="header">
-        <div class="div-logo-header">
-            <a href="#"><img src="Halley.png" alt="logo do header" class="img"></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <!-- Talvez eu precise trocar a fonte de todo o site dependendo de qual logo eu escolher usar -->
+        <!-- para não ficar muito diferente e feio -->
+        <link rel="stylesheet" href="index.css">
+        <title>Kevin's Portfolio</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="div-logo-header">
+                <a href="#"><img src="Halley.png" alt="logo do header" class="img"></a>
+            </div>
+            <div>
+                <nav id="nav">
+                    <div class="div-nav">
+                        <button>
+                            <li class="itens"><a href="#"><p id="paragrafo">Início</p></a></li>
+                        </button>
+                    </div>
+                    <div class="div-nav">
+                        <button>
+                            <li class="itens"><a href="#"><p id="paragrafo">Trabalhos</p></a></li>
+                        </button>
+                    </div>
+                    <div class="div-nav">
+                        <button>
+                            <li class="itens"><a href="#"><p id="paragrafo">Sobre</p></a></li>
+                        </button>
+                    </div>
+                    <div class="div-nav">
+                        <button>
+                            <li class="itens"><a href="#"><p id="paragrafo">Projetos</p></a></li>
+                        </button>
+                    </div>
+                    <div class="div-nav">
+                        <button>
+                            <li class="itens"><a href="#"><p id="paragrafo"></p></a></li>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+            <!-- Ainda preciso alinhar o texto dentro do botão ou deixar a caixa do botão maior -->
+            <div class="div-button">
+                <button class="vamos-conversar"><a href="#"><p id="paragrafo">Vamos conversar</p></a></button>
+            </div>
+        </header>
+        <div class="hr">
+            <hr size="3px" width="90%" color="#C4C4C4">
         </div>
-        <div id="nav">
-            <!-- Não consigo espaçar os itens -->
-            <div>
-                <button>
-                    <li class="itens"><a href="#">Início</a></li>
-                </button>
-            </div>
-            <div>
-                <button>
-                    <li class="itens"><a href="#">Trabalhos</a></li>
-                </button>
-            </div>
-            <div>
-                <button>
-                    <li class="itens"><a href="#">Sobre</a></li>
-                </button>
-            </div>
-            <div>
-                <button>
-                    <li class="itens"><a href="#">Projetos</a></li>
-                </button>
-            </div>
-            <div>
-                <button>
-                    <li class="itens"><a href="#">Serviços</a></li>
-                </button>
-            </div>
-        </div>
-        <div>
-            <button><a href="#">Vamos conversar</a></button>
-        </div>
-    </header>
-    
-</body>
+    </body>
 </html>

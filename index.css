@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fira Code', monospace;
 }
 
 .header {
@@ -23,27 +23,41 @@
     justify-content: space-between;
 }
 
-body header div nav ul li a:link {
-    text-decoration: none;
-}
-
-body header div nav ul li a:active {
-    text-decoration: none;
-}
-
-body header div nav ul li a:visited {
-    text-decoration: none;
-}
-
-body header div nav ul li a:hover {
-    text-decoration: underline;
-    transition: 10ms;
+.div-nav {
+    padding: 20px;
 }
 
 .itens {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    background: white;
     list-style: none;
 }
 
 .img {
     width: 100px;
+}
+
+.vamos-conversar {
+    background: white;
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+body header div button a:link {
+    text-decoration: none;
+}
+
+#paragrafo {
+    color: black;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
 }
