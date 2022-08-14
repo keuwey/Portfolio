@@ -55,3 +55,61 @@ body header div button a:link {
     display: flex;
     justify-content: center;
 }
+
+.main {
+    display: flex;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#texto-h1 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 44px;
+}
+
+#paragrafo-1 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16.5px;
+}
+
+.div-section1 {
+    padding: 60px;
+}
+
+.f00Pq {
+    display: flex;
+}
+
+.pqLT {
+    padding: 20px;
+}
+
+body main section div div div button a:link {
+    text-decoration: none;
+}
+
+.mL3t {
+    color: black;
+}
+
+.qP5M {
+    background: white;
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* .img-kevin {
+    width: 100%;
+    height: 100%;
+} */
