@@ -39,8 +39,22 @@
     font-family: 'Fira Code', monospace;
     font-weight: 700;
     font-style: normal;
-    font-size: 16px;
+    font-size: 17px;
     border: 2px solid black;
+    width: 180px;
+    height: 50px;
+    color: white;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+body header div button:hover {
+    background: black;
+    transition: 0.2ms;
+}
+
+body header div button a p:hover {
+    color: white;
 }
 
 body header div button a:link {
