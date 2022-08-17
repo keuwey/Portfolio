@@ -53,6 +53,7 @@ body header div button:hover {
     transition: 0.2ms;
 }
 
+/* A cor do parágrafo não está ficando branco no hover */
 body header div button a p:hover {
     color: white;
 }
