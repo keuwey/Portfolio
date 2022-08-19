@@ -48,10 +48,10 @@
     transition: 0.2s;
 }
 
-body header div button:hover {
+/* body header div button:hover {
     background: black;
     transition: 0.2ms;
-}
+} */
 
 /* A cor do parágrafo não está ficando branco no hover */
 body header div button a p:hover {
@@ -113,15 +113,36 @@ body main section div div div button a:link {
 }
 
 .mL3t {
-    color: black;
+    color: white;
 }
 
 .qP5M {
-    background: white;
+    background: #FF4700;
     font-family: 'Fira Code', monospace;
     font-weight: 700;
     font-style: normal;
-    font-size: 20px;
+    font-size: 17px;
+    width: 130px;
+    height: 50px;
+    color: white;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.p3m6 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    width: 130px;
+    height: 50px;
+    color: white;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.l2x7 {
+    color: black;
 }
 
 .img-kevin {
