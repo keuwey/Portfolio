@@ -9,4 +9,4 @@ I would love to read what you think about it. As I'll be developing it for some 
 
 ## Authors
 
-- [@keuwey](https://www.github.com/keuwey)
+- [Kevin Halley](https://www.github.com/keuwey)
