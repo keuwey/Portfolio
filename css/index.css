@@ -48,15 +48,20 @@
     transition: 0.2s;
 }
 
+#vamos-conversar-p {
+    color: black;
+}
+
 /* body header div button:hover {
     background: black;
     transition: 0.2ms;
 } */
 
 /* A cor do parágrafo não está ficando branco no hover */
-body header div button a p:hover {
+
+/* body header div button a p:hover {
     color: white;
-}
+} */
 
 body header div button a:link {
     text-decoration: none;
@@ -64,6 +69,10 @@ body header div button a:link {
 
 #paragrafo {
     color: black;
+}
+
+#paragrafo:hover {
+    text-decoration: underline;
 }
 
 .hr {

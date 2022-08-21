@@ -48,6 +48,10 @@
     transition: 0.2s;
 }
 
+#vamos-conversar-p {
+    color: black;
+}
+
 /* body header div button:hover {
     background: black;
     transition: 0.2ms;
@@ -66,6 +70,10 @@ body header div button a:link {
     color: black;
 }
 
+#paragrafo:hover {
+    text-decoration: underline;
+}
+
 .hr {
     display: flex;
     justify-content: center;
@@ -74,11 +82,15 @@ body header div button a:link {
 .main {
     padding: 30px 0px 0px 0px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
 }
 
 #div-pai {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-around;
+}
+
+.it0m3 {
+    padding: 15px 0px 0px 0px;
 }
