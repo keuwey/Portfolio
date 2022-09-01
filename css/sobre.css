@@ -79,3 +79,8 @@ body header div button a:link {
     display: flex;
     justify-content: center;
 }
+
+.p4n1 {
+    width: 500px;
+    text-align: left;
+}
