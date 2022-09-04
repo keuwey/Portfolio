@@ -174,5 +174,14 @@ body main section div div div button a:link {
 
 #icones {
     font-size:40px;
-    padding-left: 15px;
+}
+
+.div-imagem-principal {
+    width: 55%;
+}
+
+#section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
