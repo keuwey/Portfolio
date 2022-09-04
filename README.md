@@ -7,6 +7,12 @@ This is the repository for my portfolio web site. As soon as I make something th
 
 I would love to read what you think about it. As I'll be developing it for some time, if you think there's something that can be improved, please let me know.
 
+## Screenshots
+
+![Screenshot1](img/print1)
+
+![Screenshot2](img/print2-responsivo)
+
 ## Author
 
 [Kevin Halley](https://www.github.com/keuwey)
