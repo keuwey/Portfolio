@@ -10,14 +10,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .img {
-        width: 100%;
-        height: 100%;
+        justify-content: center;
     }
     .div-img {
         width: 60%;
-
+        height: 60%;
+    }
+    .img {
+        width: 70%;
+        height: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     body header div button a:link {
         text-decoration: none;
@@ -25,6 +29,7 @@
     #paragrafo {
         color: black;
     }
+
     .itens {
         font-weight: 500;
         font-style: normal;
@@ -60,6 +65,10 @@
     #vamos-conversar-p {
         color: black;
     }
+    .hr {
+        display: flex;
+        justify-content: center;
+    }
     .main {
         display: flex;
         justify-content: center;
@@ -91,5 +100,66 @@
     }
     #paragrafo-1 {
         text-align: center;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
+    }
+    .f00Pq {
+        display: flex;
+    }
+    .pqLT {
+        padding: 20px;
+    }
+    .qP5M {
+        background: #FF4700;
+        font-family: 'Fira Code', monospace;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 17px;
+        width: 130px;
+        height: 50px;
+        color: white;
+        box-sizing: border-box;
+        transition: 0.2s;
+    }
+    .mL3t {
+        color: white;
+    }
+    .p3m6 {
+        font-family: 'Fira Code', monospace;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 17px;
+        width: 130px;
+        height: 50px;
+        color: white;
+        box-sizing: border-box;
+        transition: 0.2s;
+    }
+    .l2x7 {
+        color: black;
+    }
+    body main section div div div button a:link {
+        text-decoration: none;
+    }
+    .div-de-contato {
+        padding: 20px 0px 0px 0px;
+    }
+    .contato {
+        background: white;
+        font-family: 'Fira Code', monospace;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 37px;
+    }
+    .papt {
+        padding: 15px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #icones {
+        font-size:50px;
     }
 }
