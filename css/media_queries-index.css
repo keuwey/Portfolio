@@ -1,8 +1,36 @@
 @media (max-width: 480px){
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: 'Fira Code', monospace;
+    }
+
     .header {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    .div-img {
+        width: 60%;
+
+    }
+    body header div button a:link {
+        text-decoration: none;
+    }
+    #paragrafo {
+        color: black;
+    }
+    .itens {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        background: white;
+        list-style: none;
     }
     #nav {
         display: flex;
@@ -11,5 +39,57 @@
     }
     .div-nav {
         padding: 3px;
+    }
+    .div-button {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .vamos-conversar {
+        background: white;
+        font-family: 'Fira Code', monospace;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 17px;
+        border: 2px solid black;
+        width: 180px;
+        height: 50px;
+        color: white;
+        box-sizing: border-box;
+        transition: 0.2s;
+    }
+    #vamos-conversar-p {
+        color: black;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+    #section1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-section1 {
+        padding: 15px 0px 0px 0px;
+    }
+    #texto-h1 {
+        text-align: center;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 34px;
+    }
+    .l6m200 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .q1m0T {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #paragrafo-1 {
+        text-align: center;
     }
 }
