@@ -168,6 +168,14 @@ body main section div div div button a:link {
     font-size: 30px;
 }
 
+.papt {
+    padding: 15px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+}
+
 .ppp{
     padding: 20px 0px 0px 0px;
 }
