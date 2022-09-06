@@ -49,17 +49,8 @@
     color: black;
 }
 
-body header div button:hover {
-    background: black;
-    transition: 10ms;
-}
-
 body header div button a:link {
     text-decoration: none;
-}
-
-body header div button a p:hover {
-    color: white;
 }
 
 #paragrafo {
@@ -87,14 +78,12 @@ body header div button a p:hover {
 }
 
 #texto-h1 {
-    font-family: 'Fira Code', monospace;
     font-weight: 700;
     font-style: normal;
     font-size: 44px;
 }
 
 #paragrafo-1 {
-    font-family: 'Fira Code', monospace;
     font-weight: 500;
     font-style: normal;
     font-size: 16.5px;
@@ -122,7 +111,6 @@ body main section div div div button a:link {
 
 .qP5M {
     background: #FF4700;
-    font-family: 'Fira Code', monospace;
     font-weight: 700;
     font-style: normal;
     font-size: 17px;
@@ -134,7 +122,6 @@ body main section div div div button a:link {
 }
 
 .p3m6 {
-    font-family: 'Fira Code', monospace;
     font-weight: 700;
     font-style: normal;
     font-size: 17px;
@@ -157,7 +144,6 @@ body main section div div div button a:link {
 .contato {
     padding: 40px 0px 0px 0px;
     background: white;
-    font-family: 'Fira Code', monospace;
     font-weight: 500;
     font-style: normal;
     font-size: 30px;
